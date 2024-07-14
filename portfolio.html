@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
+    <title>Meu Portfólio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Pessoal</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="conteudo">
+            <section id="home">
+                <div class="container">
+                    <h2>Bem-vindo ao meu portfólio!</h2>
+                    <p>Conheça mais sobre mim e meu trabalho.</p>
+                </div>
+                <p>Sou um desenvolvedor web apaixonado por criar soluções inovadoras e eficientes. Tenho experiência em
+                    HTML, CSS, PHP, e outras tecnologias web.</p>
+            </section>
+            <section id="projetos">
+                <h2>Projetos</h2>
+                <div class="projeto">
+                    <h3>Projeto 1: Site Pessoal</h3>
+                    <p>Descrição do projeto pessoal com detalhes sobre tecnologias usadas e funcionalidades
+                        implementadas.</p>
+                    <a class="redirect" href="index.html">Veja aqui</a>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 2: Galeria Responsiva</h3>
+                    <p>Galeria responsiva</p>
+                    <a class="redirect" href="#gallery">Veja aqui</a>
+                </div>
+
+                <div class="container">
+                    <h2>Experiências</h2>
+                    <section id="libgest">
+                        <h3>1. Sistema de Gestão de Biblioteca</h3>
+                        <h4>Descrição</h4>
+                        <p>Desenvolvimento de um sistema completo de gestão de biblioteca que permite o cadastro,
+                            empréstimo e devolução de livros, além de gerenciamento de usuários.</p>
+                        <div class="container">
+                            <h4>Tecnologias Usadas</h4>
+                            <ul>
+                                <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+                                <li><strong>Backend:</strong> Python (Django)</li>
+                                <li><strong>Banco de Dados:</strong> PostgreSQL</li>
+                            </ul>
+                        </div>
+                        <div class="container">
+                            <h4>Habilidades Desenvolvidas</h4>
+                            <ul>
+                                <li>Modelagem de banco de dados relacional</li>
+                                <li>Criação de interfaces de usuário amigáveis</li>
+                                <li>Desenvolvimento de APIs RESTful</li>
+                                <li>Integração de sistemas frontend e backend</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <section id="gallery">
+                <div class="container">
+                    <h2>Exemplo de Galeria</h2>
+                    <div class="gallery">
+                        <a href="resources/images/1.jpg" data-lightbox="models" data-title="Imagem 1">
+                            <img src="resources/images/1.jpg" alt="Img1Ex">
+                        </a>
+                        <a href="resources/images/2.jpg" data-lightbox="models" data-title="Imagem 2">
+                            <img src="resources/images/2.jpg" alt="Img2Ex">
+                        </a>
+                        <a href="resources/images/3.jpg" data-lightbox="models" data-title="Imagem 3">
+                            <img src="resources/images/3.jpg" alt="Img3Ex">
+                        </a>
+                        <a href="resources/images/4.jpg" data-lightbox="models" data-title="Imagem 4">
+                            <img src="resources/images/4.jpg" alt="Img4Ex">
+                        </a>
+                        <a href="resources/images/5.jpg" data-lightbox="models" data-title="Imagem 5">
+                            <img src="resources/images/5.jpg" alt="Img5Ex">
+                        </a>
+                        <a href="resources/images/6.jpg" data-lightbox="models" data-title="Imagem 6">
+                            <img src="resources/images/6.jpg" alt="Img6Ex">
+                        </a>
+                        <a href="resources/images/7.jpg" data-lightbox="models" data-title="Imagem 7">
+                            <img src="resources/images/7.jpg" alt="Img7Ex">
+                        </a>
+                        <a href="resources/images/8.jpg" data-lightbox="models" data-title="Imagem 8">
+                            <img src="resources/images/8.jpg" alt="Img8Ex">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="contato">
+                <h2>Contato</h2>
+                <p>Email: marcosgleydson721@gmail.com</p>
+                <div class="container">
+                    <form>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Marcos Gleydson. Todos os direitos reservados.</p>
+    </footer>
+    <script src="lightbox-plus-jquery.js"></script>
+</body>
+
+</html>
